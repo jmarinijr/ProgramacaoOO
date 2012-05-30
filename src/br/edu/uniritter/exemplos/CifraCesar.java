@@ -33,7 +33,6 @@ public class CifraCesar {
                 codificado.append(texto.charAt(i));
         }
         String retorno = new String(codificado);
-        System.out.println(retorno);
         return retorno;
     }
 }
